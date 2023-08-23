@@ -1,7 +1,152 @@
-.header {
+body {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    color: #1f2937;
+}
+
+.header, .footer {
     background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .quote {
     background-color: #e5e7eb;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    gap: 250px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.header-image {
+    display: flex; 
+}
+
+.credit-1 {
+    display: flex;
+    color: #f9faf8;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.header a {
+    color: #f9faf8;
+    margin: 0;
+}
+
+
+img {
+    width: 800px;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: right;
+}
+
+.card img {
+    width: 450px;
+    height: auto;
+}
+
+.card a {
+    color: #1f2937;
+ 
+}
+
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.credit-body {
+    font-size: 12px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-text-title {
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.header-text-body {
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.left-links {
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
